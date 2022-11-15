@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Second-->
+        <!--DetailView-->
         <scene sceneID="pXy-ud-IeZ">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="Second" storyboardName="SecondStoryboard" referencedIdentifier="Second" id="W5E-R0-DlY" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="DetailView" storyboardName="SecondStoryboard" referencedIdentifier="DetailView" id="W5E-R0-DlY" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="AFY-m2-jcg"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="guH-9f-tKH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -22,7 +22,7 @@
         <!--Home-->
         <scene sceneID="9Ko-og-Bvc">
             <objects>
-                <viewController id="4oX-yE-kSk" sceneMemberID="viewController">
+                <viewController id="4oX-yE-kSk" customClass="HomeViewController" customModule="TabViewExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="diQ-ht-Ytq">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
